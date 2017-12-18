@@ -6,7 +6,8 @@
     "children": [
         "4404db07-ba0c-4cee-b4f6-c105e7105565",
         "699f1f25-6a4f-4bb8-ab0d-8212a4e6cd67",
-        "fa027036-2ec5-46ef-aaf4-35f48c50b76b"
+        "fa027036-2ec5-46ef-aaf4-35f48c50b76b",
+        "e6818ff2-82e9-4022-b6c8-b8ed2aaac714"
     ],
     "filterType": "GMSprite",
     "folderName": "Tiles",

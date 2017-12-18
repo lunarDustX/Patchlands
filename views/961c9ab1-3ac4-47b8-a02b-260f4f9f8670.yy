@@ -6,7 +6,8 @@
     "children": [
         "221d1d4f-b331-481d-bfbd-c06a3b54ea5d",
         "74c416e0-b3ba-4c89-b2c0-e4852f2adc85",
-        "dde24841-eb32-4fa6-837f-88d3b528bb82"
+        "dde24841-eb32-4fa6-837f-88d3b528bb82",
+        "c21c0c8f-8ac9-4dfd-8e5a-3ba7c6dc9890"
     ],
     "filterType": "GMSprite",
     "folderName": "Cards",

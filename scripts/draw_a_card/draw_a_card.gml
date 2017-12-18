@@ -3,8 +3,8 @@ var cards_left = 0;
 for (var i = 0; i < NUM_OF_LAND; i++) {
 	cards_left += o_game.cards[i];
 }
-
 if (cards_left < 1) exit;
+audio_play_sound(a_select, 4, false);
 
 var ran = irandom_range(1, cards_left);
 var type = 0;
@@ -18,8 +18,10 @@ o_game.cards[type]--;
 
 var card = instance_create_layer(0, 0, "UI", o_card);
 card.type = type;
-show_message(string(type));
+card.image_index = type;
+//show_message(string(type));
 
+/*
 switch (type) {
 	case land.forest:
 		card.sprite_index = s_card_forest;

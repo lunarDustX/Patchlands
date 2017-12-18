@@ -1,4 +1,8 @@
 /// @description 
 if (state == AttackState) {
-	state = MoveState;	
+	if (slash_stage >= combo) {
+		state = MoveState;	
+		slash_stage = 0;
+		combo = 1;
+	}
 }

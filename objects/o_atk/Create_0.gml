@@ -1,3 +1,3 @@
 /// @description 
-DMGFrame = 1;
+DMGFrame = 0;
 damage = 1;

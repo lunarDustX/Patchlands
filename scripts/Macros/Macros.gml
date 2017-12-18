@@ -5,6 +5,7 @@
 #macro DOWN 3
 
 #macro MAP_SIZE 3
+#macro MAP_WIDTH 64
 #macro LAND_SIZE 3
 #macro CELL_WIDTH 64
 
@@ -14,6 +15,11 @@ enum land {
 	snow, 
 	forest, 
 	lava,
+}
+
+enum weapon {
+	sword,
+	bow,
 }
 
 /*

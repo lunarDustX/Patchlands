@@ -1,4 +1,4 @@
 /// @description 
 if (sprite_index != noone) {
-	draw_sprite(sprite_index, 0, x0, y0);	
+	draw_sprite(sprite_index, image_index, x0, y0);	
 }
